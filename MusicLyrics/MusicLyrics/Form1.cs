@@ -90,6 +90,9 @@ namespace MusicLyrics {
 
             Display_Button.Enabled = true;
             Display_Button.Visible = true;
+
+            New_Band.Enabled = true;
+            New_Band.Visible = true;
         }
 
         private void Enter_Band_Choice_Click(object sender, EventArgs e) {
@@ -110,6 +113,9 @@ namespace MusicLyrics {
 
                     Display_Button.Enabled = true;
                     Display_Button.Visible = true;
+
+                    New_Band.Enabled = true;
+                    New_Band.Visible = true;
 
                     data.addBand(ref band);
                     string[] itemsAdded = {band};
